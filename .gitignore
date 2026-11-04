@@ -1,0 +1,27 @@
+# build
+/target
+# chain / node state (never publish)
+data/
+data-store/
+node-data/
+wallet_data/
+wallet_keys/
+chunks/
+keys/
+keys-store/
+# secrets / env
+*.key
+*.pem
+.env
+.env*
+# logs
+*.log
+# local runtime dirs (never publish)
+/.archive/
+artifacts/
+run/
+tmp/
+# local tooling (never publish)
+node_modules/
+.opencode/
+*handoff*
