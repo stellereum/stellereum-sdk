@@ -7,7 +7,7 @@ description = "Minimal canonical transaction-builder SDK for Stellereum (B2 clos
 license = "MIT OR Apache-2.0"
 
 [dependencies]
-stellereum = { path = "../stellereum" }
+stellereum = { git = "https://github.com/stellereum/stellereum", branch = "main" }
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 hex = "0.4"
